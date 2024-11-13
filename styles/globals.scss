@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+html {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+main,
+body {
+	overflow-x: hidden !important;
+}
