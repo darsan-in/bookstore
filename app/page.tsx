@@ -1,3 +1,5 @@
+import View from "@/components/view";
+
 export default function HomePage() {
-	return <main>hello</main>;
+	return <View />;
 }

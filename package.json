@@ -1,7 +1,7 @@
 {
   "name": "bookstore",
   "version": "0.1.0",
-  "license":"Apache-2.0",
+  "license": "Apache-2.0",
   "type": "module",
   "scripts": {
     "dev": "next dev --turbo",
@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^7.14.0",
+    "@mantine/hooks": "^7.14.0",
     "react": "18",
     "react-dom": "18"
   },

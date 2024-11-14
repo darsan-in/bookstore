@@ -1,4 +1,8 @@
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import "@/styles/globals.scss";
+import { MantineProvider } from "@mantine/core";
+import "@mantine/core/styles.css";
 
 export default function RootLayout({
 	children,
@@ -7,7 +11,13 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body>{children}</body>
+			<body>
+				<MantineProvider>
+					<Header />
+					{children}
+					<Footer />
+				</MantineProvider>
+			</body>
 		</html>
 	);
 }
