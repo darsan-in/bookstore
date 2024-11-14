@@ -1,4 +1,4 @@
-export default () => {
+export default function Footer() {
 	const footerNavs = [
 		{
 			href: "https://github.com/darsan-in/bookstore?tab=Apache-2.0-1-ov-file#readme",
@@ -37,4 +37,4 @@ export default () => {
 			</div>
 		</footer>
 	);
-};
+}

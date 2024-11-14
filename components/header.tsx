@@ -1,15 +1,16 @@
 "use client";
 
+import Link from "next/link";
 import Form from "./form";
 
-export default () => {
+export default function Header() {
 	const Brand = () => (
 		<div className="flex items-center justify-between py-5 md:block">
-			<a
+			<Link
 				href="/"
 				className="font-black tracking-widest text-3xl text-primary">
 				BOOK STORE
-			</a>
+			</Link>
 		</div>
 	);
 
@@ -27,4 +28,4 @@ export default () => {
 			</nav>
 		</header>
 	);
-};
+}

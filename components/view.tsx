@@ -5,14 +5,14 @@ import { Grid } from "@mantine/core";
 import { useEffect, useState } from "react";
 import BookCard from "./book-card";
 
-export default () => {
+export default function View() {
 	const [bookRecords, setBookRecords] = useState<BookSchema[]>(
 		[] as BookSchema[],
 	);
 
 	useEffect(() => {
 		getRecords(setBookRecords);
-	});
+	}, []);
 
 	return (
 		<div className="relative">
@@ -45,4 +45,4 @@ export default () => {
 			</div>
 		</div>
 	);
-};
+}

@@ -3,13 +3,13 @@ import BookSchema from "@/backend/lib/db-schema";
 import deleteRecord from "@/scripts/delete-record";
 import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
 
-export default ({
+export default function BookCard({
 	imageLink,
 	title,
 	_id,
 	author,
 	description,
-}: BookSchema) => {
+}: BookSchema) {
 	return (
 		<Card
 			shadow="sm"
@@ -51,4 +51,4 @@ export default ({
 			</Button>
 		</Card>
 	);
-};
+}

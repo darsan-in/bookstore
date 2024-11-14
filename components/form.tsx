@@ -6,7 +6,7 @@ import postman from "@/scripts/postman";
 import { Modal } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 
-export default () => {
+export default function Form() {
 	const [opened, { open, close }] = useDisclosure(false);
 	const isMobile = useMediaQuery("(max-width: 50em)");
 
@@ -81,4 +81,4 @@ export default () => {
 			</Button>
 		</>
 	);
-};
+}
