@@ -10,7 +10,8 @@ export default function postman(
 
 	const data = Object.fromEntries(formData.entries()); // Convert FormData to a plain object
 
-	const endpoint = "http://localhost:9080/books";
+	/* const endpoint = "http://localhost:9080/books"; */
+	const endpoint = `https://bookstore-indol-ten.vercel.app/books`;
 
 	fetch(endpoint, {
 		method: "POST",

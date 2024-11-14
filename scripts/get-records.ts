@@ -3,7 +3,8 @@ import BookSchema from "@/backend/lib/db-schema";
 export default function getRecords(
 	callback: (bookRecords: BookSchema[]) => void,
 ) {
-	const endpoint = "http://localhost:9080/books";
+	/* const endpoint = "http://localhost:9080/books"; */
+	const endpoint = `https://bookstore-indol-ten.vercel.app/books`;
 
 	fetch(endpoint, {
 		method: "GET",

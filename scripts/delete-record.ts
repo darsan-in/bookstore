@@ -1,5 +1,6 @@
 export default function deleteRecord(bookId: string | number) {
-	const endpoint = `http://localhost:9080/books/${bookId}`;
+	/* const endpoint = `http://localhost:9080/books/${bookId}`; */
+	const endpoint = `https://bookstore-indol-ten.vercel.app/books/${bookId}`;
 
 	fetch(endpoint, {
 		method: "DELETE",
