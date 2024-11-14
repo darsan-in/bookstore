@@ -1,6 +1,6 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
-	"mongodb://localhost:27017/" ||
+	/* "mongodb://localhost:27017/" || */
 	`mongodb+srv://darsan:${"0yrVtQfOiHVK16D9"}@cresteem.hikzg.mongodb.net/?retryWrites=true&w=majority&appName=cresteem`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version

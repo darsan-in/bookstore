@@ -9,7 +9,7 @@ const app = express();
 // Enable CORS for all routes
 app.use(
 	cors({
-		origin: "http://localhost:3000",
+		origin: true,
 		methods: ["GET", "POST", "DELETE"],
 	}),
 );
@@ -33,5 +33,9 @@ app.use(function (err, req, res, next) {
 	res.status(err.status || 500);
 	res.json({ error: err });
 });
+
+const port = 3000;
+app.set("port", port);
+app.listen(port, () => console.log("Server ready on port 3000."));
 
 module.exports = app;
