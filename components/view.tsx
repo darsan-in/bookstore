@@ -12,7 +12,7 @@ export default function View() {
 
 	useEffect(() => {
 		getRecords(setBookRecords);
-	}, []);
+	});
 
 	return (
 		<div className="relative">
