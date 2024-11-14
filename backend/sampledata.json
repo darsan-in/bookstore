@@ -1,0 +1,178 @@
+[
+	{
+		"title": "To Kill a Mockingbird",
+		"author": "Harper Lee",
+		"description":
+			"A novel about the serious issues of rape and racial inequality, seen through the eyes of young Scout Finch.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "1984",
+		"author": "George Orwell",
+		"description":
+			"A dystopian novel set in a totalitarian society ruled by Big Brother.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Great Gatsby",
+		"author": "F. Scott Fitzgerald",
+		"description":
+			"A story of the young and mysterious millionaire Jay Gatsby and his quixotic passion for Daisy Buchanan.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Pride and Prejudice",
+		"author": "Jane Austen",
+		"description":
+			"A romantic novel that charts the emotional development of Elizabeth Bennet.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Catcher in the Rye",
+		"author": "J.D. Salinger",
+		"description":
+			"A story about teenage rebellion and angst as told by Holden Caulfield.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Lord of the Rings",
+		"author": "J.R.R. Tolkien",
+		"description":
+			"An epic fantasy adventure of Frodo Baggins on his journey to destroy the One Ring.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Hobbit",
+		"author": "J.R.R. Tolkien",
+		"description":
+			"A prelude to the Lord of the Rings, following Bilbo Baggins on a quest with dwarves.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Moby-Dick",
+		"author": "Herman Melville",
+		"description":
+			"The tale of the obsessive quest of Captain Ahab for revenge on Moby Dick.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "War and Peace",
+		"author": "Leo Tolstoy",
+		"description":
+			"A sweeping novel that captures the history and humanity of Russia during the Napoleonic era.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Odyssey",
+		"author": "Homer",
+		"description":
+			"An ancient Greek epic following Odysseus's journey home after the Trojan War.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Crime and Punishment",
+		"author": "Fyodor Dostoevsky",
+		"description":
+			"A story of a young man in St. Petersburg whose mental anguish leads him to murder.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Brave New World",
+		"author": "Aldous Huxley",
+		"description":
+			"A futuristic society controlled by technology and conditioning, where happiness is enforced.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Jane Eyre",
+		"author": "Charlotte Brontë",
+		"description":
+			"An orphan's journey to independence and love in Victorian England.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Wuthering Heights",
+		"author": "Emily Brontë",
+		"description":
+			"A dark romance of love, revenge, and tragedy on the Yorkshire moors.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Frankenstein",
+		"author": "Mary Shelley",
+		"description":
+			"A story of scientific ambition and the unintended consequences of creating life.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Great Expectations",
+		"author": "Charles Dickens",
+		"description":
+			"The story of Pip, a young orphan who seeks wealth and respect but finds meaning in humility.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Anna Karenina",
+		"author": "Leo Tolstoy",
+		"description":
+			"A tragic romance that explores the complexities of love, marriage, and society.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Picture of Dorian Gray",
+		"author": "Oscar Wilde",
+		"description":
+			"A young man's obsession with youth and beauty leads him down a dark path.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Madame Bovary",
+		"author": "Gustave Flaubert",
+		"description":
+			"A story of a woman's search for happiness beyond the mundane constraints of provincial life.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Brothers Karamazov",
+		"author": "Fyodor Dostoevsky",
+		"description":
+			"A philosophical novel that delves into the moral and spiritual dilemmas of family and faith.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "One Hundred Years of Solitude",
+		"author": "Gabriel Garcia Marquez",
+		"description":
+			"A magical realist tale of the Buendía family in the fictional town of Macondo.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Dracula",
+		"author": "Bram Stoker",
+		"description":
+			"The iconic story of Count Dracula's attempt to spread the undead curse in England.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "The Divine Comedy",
+		"author": "Dante Alighieri",
+		"description":
+			"An epic poem that describes Dante's journey through Hell, Purgatory, and Paradise.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Catch-22",
+		"author": "Joseph Heller",
+		"description":
+			"A satirical novel about the absurdity of war and bureaucratic nonsense.",
+		"imageLink": "/images/default-thumbnail.jpg",
+	},
+	{
+		"title": "Les Misérables",
+		"author": "Victor Hugo",
+		"description":
+			"A story of redemption and sacrifice set against the backdrop of post-revolutionary France.",
+		"imageLink": "/images/default-thumbnail.jpg"
+	}
+
+]

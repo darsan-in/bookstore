@@ -1,8 +1,19 @@
 "use client";
+import BookSchema from "@/backend/lib/db-schema";
+import getRecords from "@/scripts/get-records";
 import { Grid } from "@mantine/core";
+import { useEffect, useState } from "react";
 import BookCard from "./book-card";
 
 export default () => {
+	const [bookRecords, setBookRecords] = useState<BookSchema[]>(
+		[] as BookSchema[],
+	);
+
+	useEffect(() => {
+		getRecords(setBookRecords);
+	});
+
 	return (
 		<div className="relative">
 			<div
@@ -14,19 +25,21 @@ export default () => {
 			<div className="relative">
 				<section className="max-w-screen-xl mx-auto px-4 gap-12 text-gray-600 px-8 flex">
 					<Grid>
-						{new Array(15).fill(0).map((_, idx) => (
-							<Grid.Col
-								span={{ base: 12, xs: 4, xl: 2 }}
-								key={idx}>
-								<BookCard
-									imageLink=""
-									title=""
-									author=" "
-									description=""
-									_id={idx}
-								/>
-							</Grid.Col>
-						))}
+						{bookRecords.length > 0
+							? bookRecords.map((record, idx) => (
+									<Grid.Col
+										span={{ base: 12, xs: 4, xl: 2 }}
+										key={idx}>
+										<BookCard
+											imageLink={record.imageLink}
+											title={record.title}
+											author={record.author}
+											description={record.description}
+											_id={record._id}
+										/>
+									</Grid.Col>
+							  ))
+							: null}
 					</Grid>
 				</section>
 			</div>

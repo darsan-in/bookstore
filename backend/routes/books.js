@@ -7,8 +7,12 @@ const deleteBook = require("../lib/crud/delete.book");
 
 //GET
 router.get("/books", async function (req, res, next) {
-	const booksData = await getBooks();
-	res.status(200).json(booksData);
+	try {
+		const booksData = await getBooks();
+		res.status(200).json({ records: booksData, success: true });
+	} catch (err) {
+		res.status(500).json({ success: false, error: err });
+	}
 });
 
 //POST
@@ -36,14 +40,14 @@ router.delete("/books/:id", async function (req, res, next) {
 		const deleted = await deleteBook(bookId);
 
 		if (deleted) {
-			res.sendStatus(200).json({ success: deleted });
+			res.status(200).json({ success: deleted });
 		} else {
 			res
-				.sendStatus(500)
+				.status(500)
 				.json({ success: deleted, error: "Failed to delete" });
 		}
 	} catch (err) {
-		res.sendStatus(500).json({ success: false, error: err });
+		res.status(500).json({ success: false, error: err });
 	}
 });
 

@@ -1,5 +1,6 @@
 "use client";
 import BookSchema from "@/backend/lib/db-schema";
+import deleteRecord from "@/scripts/delete-record";
 import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
 
 export default ({
@@ -44,9 +45,8 @@ export default ({
 				radius="md"
 				size="compact-md"
 				onClick={() => {
-					alert(`clicked on ${_id}`);
+					deleteRecord(_id ?? "0");
 				}}>
-				{" "}
 				Delete
 			</Button>
 		</Card>
