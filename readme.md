@@ -41,6 +41,7 @@
 - [Features and Benefits](#features-and-benefits-)
 - [Installation - Step-by-Step Guide](#installation---step-by-step-guide-)
 - [API Endpoints](#api-endpoints)
+- [Testing Endpoints](#testing-endpoints)
 - [Website](#website-)
 - [License](#license-%EF%B8%8F)
 - [Contributing to Our Project](#contributing-to-our-project-)
@@ -92,6 +93,40 @@ git clone https://github.com/darsan-in/bookstore.git
 * **Get All Books:** `GET /books` - Retrieves a list of all books.
 * **Add a Book:** `POST /books` - Adds a new book with `title`, `author`, and `description` fields.
 * **Delete a Book:** `DELETE /books/:id` - Deletes a book by its ID.
+
+## Testing Endpoints
+
+### 1. **GET /books** - Fetches a list of all books
+
+```bash
+curl -X GET https://bookstore-indol-ten.vercel.app/books
+```
+
+### 2. **POST /books** - Adds a new book
+
+```bash
+curl -X POST https://bookstore-indol-ten.vercel.app/books \
+    -H "Content-Type: application/json" \
+    -d '{
+        "title": "Book Title",
+        "author": "Author Name",
+        "desc": "A brief description of the book.",
+        "thumbnail": "http://example.com/thumbnail.jpg"
+    }'
+```
+
+### 3. **DELETE /books/:id** - Deletes a book by its ID
+
+```bash
+curl -X DELETE https://bookstore-indol-ten.vercel.app/books/12345
+```
+
+#### Explanation:
+- Replace `https://bookstore-indol-ten.vercel.app` with your actual production URL if needed.
+- Replace `"Book Title"`, `"Author Name"`, `"A brief description of the book."`, and the `thumbnail` URL with the appropriate values for the book.
+- Replace `12345` with the actual book ID you want to delete.
+
+---
 
 ## Website 🌐
 
