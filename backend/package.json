@@ -2,7 +2,7 @@
   "name": "bookstore-backend",
   "version": "0.0.1a",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./api/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

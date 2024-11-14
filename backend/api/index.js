@@ -2,7 +2,7 @@ const createError = require("http-errors");
 const express = require("express");
 const cors = require("cors");
 
-const bookRouter = require("./routes/books");
+const bookRouter = require("../routes/books");
 
 const app = express();
 
